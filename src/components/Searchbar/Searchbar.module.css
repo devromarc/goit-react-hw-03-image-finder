@@ -1,17 +1,24 @@
 /* SearchBar.module.css */
 .searchbar {
-  background-color: #f0f8ff;
+  /* background-color: #c1e5ce;
   padding: 10px 20px;
   border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #A0937D;
 }
 
 .form {
+
+  width: 50%;
   display: flex;
-  align-items: center;
-  border: 2px solid #ff85a2;
-  border-radius: 5px;
+  border: 2px solid #E7D4B5;
   overflow: hidden;
+  border-radius: 5px;
 }
 
 .input {
@@ -21,13 +28,15 @@
   font-size: 16px;
   color: #333;
   background-color: #ffffff;
+
+  
 }
 
 .button {
   padding: 10px 15px;
   border: none;
-  background-color: #ff85a2; /* Soft pink */
-  color: #ffffff;
+  background-color: #F6E6CB;
+  color: black;
   cursor: pointer;
   transition: background-color 0.3s;
   display: block;
@@ -35,8 +44,8 @@
 }
 
 .button:hover {
-  background-color: #f0f8ff; /* Light blue on hover */
-  color: #ff85a2; /* Pink text */
+  background-color: #B6C7AA; /* Light blue on hover */
+  color: black; /* Pink text */
 }
 
 .buttonLabel {

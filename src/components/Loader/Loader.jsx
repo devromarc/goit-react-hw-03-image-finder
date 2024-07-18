@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { TailSpin } from 'react-loader-spinner';
+import { FallingLines } from 'react-loader-spinner';
 import styles from './Loader.module.css';
 
 class Loader extends Component {
@@ -7,7 +7,7 @@ class Loader extends Component {
     return (
       <div className={styles.Loader}>
         <div className={styles.loaderBox}>
-          <TailSpin color="#00BFFF" height={80} width={80} />
+          <FallingLines color="#F6E6CB" height={200} width={200} />
         </div>
       </div>
     );
